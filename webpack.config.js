@@ -22,7 +22,7 @@ module.exports = {
     extensions: [".tsx", ".ts", ".js"],
   },
   mode: mode,
-  entry: "./src/index.ts",
+  entry: "./server.ts",
   output: {
     filename: "main.js",
     path: path.resolve(__dirname, "dist"),
